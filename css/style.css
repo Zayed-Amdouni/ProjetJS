@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial Black', Arial, sans-serif;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    border: 3px solid #ff3fa0;
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgba(255,63,160,0.55), 0 0 120px rgba(255,63,160,0.2);
+    cursor: pointer;
+}
